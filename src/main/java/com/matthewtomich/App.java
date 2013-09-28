@@ -18,7 +18,7 @@ public class App
             }
          });
 
-
+    	// test route
     	get(new Route("/goodbye") {
             @Override
             public Object handle(Request request, Response response) {
