@@ -17,5 +17,13 @@ public class App
                return "Hello World!";
             }
          });
+
+
+    	get(new Route("/goodbye") {
+            @Override
+            public Object handle(Request request, Response response) {
+               return "Goodbye!";
+            }
+         });
     }
 }
