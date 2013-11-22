@@ -25,5 +25,14 @@ public class App
                return "Goodbye!";
             }
          });
+    	
+    	put(new Route("/hello") {
+			
+			@Override
+			public Object handle(Request request, Response response) {
+				response.status(204);
+				return null;
+			}
+		});
     }
 }
