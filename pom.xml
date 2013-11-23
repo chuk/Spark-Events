@@ -28,13 +28,13 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongo-java-driver</artifactId>
 			<version>2.10.1</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
@@ -46,13 +46,32 @@
 			<artifactId>spark</artifactId>
 			<version>0.9.9.4-SNAPSHOT</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+
 	</dependencies>
-	
+
 	<repositories>
 		<repository>
-      		<id>Spark repository</id>
-      		<url>http://www.sparkjava.com/nexus/content/repositories/spark/</url>
+			<id>Spark repository</id>
+			<url>http://www.sparkjava.com/nexus/content/repositories/spark/</url>
 		</repository>
 	</repositories>
-	
+
 </project>
